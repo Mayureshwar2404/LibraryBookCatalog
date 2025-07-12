@@ -8,10 +8,10 @@ A Spring Boot-based RESTful API for managing a library's book catalog. It suppor
 
 ### ✅ Prerequisites
 
-- Java 17+ (or compatible)
-- Maven 3.8+
-- A database (default: H2 in-memory DB or configure MySQL/PostgreSQL)
-- IDE (e.g., IntelliJ IDEA, Eclipse)
+- Java 21
+- Maven 3.5.3
+- MySQL
+- IDE- Eclipse
 
 ---
 
@@ -20,7 +20,7 @@ A Spring Boot-based RESTful API for managing a library's book catalog. It suppor
 1. **Clone the repository**
 
 ```bash
-git clone https://github.com/your-username/LibraryBookCatalog.git
+git clone https://github.com/Mayureshwar2404/LibraryBookCatalog.git
 cd LibraryBookCatalog
 
 2.Run with Maven
@@ -31,3 +31,15 @@ mvn spring-boot:run
 
 3.Access the app
 API Base URL: http://localhost:8080/books
+
+Requests on postman
+
+GET http://localhost:8080/books
+
+GET http://localhost:8080/books/1
+
+POST http://localhost:8080/books
+
+DELETE http://localhost:8080/books/2
+
+PATCH http://localhost:8080/books/1/availability?available=false
