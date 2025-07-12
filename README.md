@@ -1,12 +1,12 @@
-# 📚 Library Book Catalog API
+# Library Book Catalog API
 
 A Spring Boot-based RESTful API for managing a library's book catalog. It supports operations like adding, retrieving, updating, and deleting books, along with availability management.
 
 ---
 
-## 🚀 How to Run the Project
+# How to Run the Project
 
-### ✅ Prerequisites
+# Prerequisites
 
 - Java 21
 - Maven 3.5.3
@@ -15,24 +15,24 @@ A Spring Boot-based RESTful API for managing a library's book catalog. It suppor
 
 ---
 
-### 🏁 Steps to Run
+# Steps to Run
 
-1. **Clone the repository**
+# 1.Clone the repository
 
 ```bash
 git clone https://github.com/Mayureshwar2404/LibraryBookCatalog.git
 cd LibraryBookCatalog
 
-2.Run with Maven
+# 2.Run with Maven
 
 bash
 mvn spring-boot:run
 
 
-3.Access the app
+# 3.Access the app
 API Base URL: http://localhost:8080/books
 
-Requests on postman
+# Requests on postman
 
 GET http://localhost:8080/books
 
